@@ -6,6 +6,7 @@ theme="jsonresume-theme-onepage-plus"
 repo="git@github.com:HarimbolaSantatra/jsonresume-theme-onepage-plus.git"
 branch="test"
 
+git push
 cd $test_dest/node_modules
 if [ ! -e $theme ]; then
     echo "Repository $theme not present!"
